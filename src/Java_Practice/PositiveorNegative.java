@@ -10,6 +10,8 @@ public class PositiveorNegative {
         int num = scanner.nextInt();
 
         System.out.println(isPositiveOrNegative(num));
+
+        scanner.close();
     }
 
     public static String isPositiveOrNegative(int n) {

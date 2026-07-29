@@ -10,7 +10,7 @@ public class LeapYear {
 
         System.out.println(isLeap(year));
 
-        scanner.close();
+         scanner.close();
     }
 
     public static boolean isLeap(int a) {

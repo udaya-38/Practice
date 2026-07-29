@@ -15,11 +15,15 @@ public class PrimeNumber {
     }
 
     public static boolean isPrime(int a) {
-        if (a % 2 == 0 && a != 2) {
+        if (a <= 1) {
             return false;
         }
 
-        if (a <= 1) {
+        if (a == 2) {
+            return true;
+        }
+
+        if (a % 2 == 0) {
             return false;
         }
 

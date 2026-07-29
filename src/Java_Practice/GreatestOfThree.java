@@ -16,6 +16,8 @@ public class GreatestOfThree {
         int num3 = scanner.nextInt();
 
         System.out.println("The Greatest Number Among Three is " + ThreeGreatest(num1 , num2 , num3));
+
+        scanner.close();
     }
 
     public static int ThreeGreatest(int a , int b , int c) {

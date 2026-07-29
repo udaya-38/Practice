@@ -10,6 +10,7 @@ public class OddEven {
         int num = scanner.nextInt();
 
         System.out.println(checkOddEven(num));
+
         scanner.close();
     }
 

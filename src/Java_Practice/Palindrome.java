@@ -23,10 +23,6 @@ public class Palindrome {
             a = a / 10;
         }
 
-        if (temp == rev) {
-            return true;
-        }
-
-        return false;
+        return temp == rev;
     }
 }

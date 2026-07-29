@@ -16,11 +16,10 @@ public class SumDigits {
     public static int SumOfDigits(int a) {
 
         int sum = 0;
-        int rem = 0;
 
         while (a > 0) {
 
-            rem = a % 10;  // TAKES THE LAST NUMBER EX: 1234 -> 4
+            int rem = a % 10;  // TAKES THE LAST NUMBER EX: 1234 -> 4
             sum = sum + rem;
             a = a / 10; // REMOVES THE LAST NUMBER EX: 1234 -> 123
         }

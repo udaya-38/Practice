@@ -10,6 +10,7 @@ public class Fibonacci {
 
         if (num < 0) {
             System.out.println("Please enter a non-negative number");
+            return;
         }
 
         System.out.println(fibonacciNumber(num));

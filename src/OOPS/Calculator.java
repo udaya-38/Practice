@@ -1,34 +1,25 @@
 package OOPS;
 
 public class Calculator {
-    int num1;
-    int num2;
 
-    Calculator(int num1,int num2){
-        this.num1=num1;
-        this.num2=num2;
+    public int add(int a, int b) {
+        return a + b;
     }
 
-    public int add(){
-        return num1+num2;
+    public int sub(int a, int b) {
+        return a - b;
     }
 
-    public int div(){
-        return num1/num2;
+    public int multiply(int a, int b) {
+        return a * b;
     }
 
-    public int multiply(){
-        return num1*num2;
+    public double div(double a, double b) {
+        if (b == 0) {
+            return 0;
+        }
+
+        return (double) a / b;
     }
 
-    public int sub(){
-        return num1-num2;
-    }
-
-    public void show(){
-        System.out.println("Addition of "+ num1 +" + "+ num2 +" = "+add());
-        System.out.println("Subtraction of "+ num1 +" - "+ num2 +" = "+sub());
-        System.out.println("Multiplication of "+ num1 +" * "+ num2 +" = "+multiply());
-        System.out.println("Division of "+ num1 +" / "+ num2 +" = "+div());
-    }
 }

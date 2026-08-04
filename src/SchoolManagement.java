@@ -18,8 +18,8 @@ class Person {
     }
 
     public void display() {
-        System.out.println("Name: " + name);
-        System.out.println("Age: " + age);
+        System.out.println("Name of the Student is: " + name);
+        System.out.println("Age of the Student is: " + age);
     }
 }
 

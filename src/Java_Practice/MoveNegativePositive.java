@@ -1,6 +1,5 @@
 package Java_Practice;
 
-import java.util.Scanner;
 
 public class MoveNegativePositive {
     public static void main(String[] args) {

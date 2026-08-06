@@ -1,3 +1,4 @@
+package Java_Practice;
 import java.util.Arrays;
 import java.util.Scanner;
 

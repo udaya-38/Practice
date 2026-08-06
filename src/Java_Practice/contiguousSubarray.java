@@ -5,8 +5,8 @@ public class contiguousSubarray {
         int [] arr = {-2,-3,4,-1,-2,1,5,-3};
         int current = 0;
         int max = Integer.MIN_VALUE;
-        for (int i = 0; i < arr.length; i++) {
-            current += arr[i];
+        for (int j : arr) {
+            current += j;
 
             if (current > max) {
                 max = current;
